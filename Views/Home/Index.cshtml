@@ -1,0 +1,103 @@
+﻿@model Tuple<ConsumerModel, Register>
+@{
+    ViewData["Title"] = "Login Page";
+}
+
+<link rel="stylesheet" type="text/css" href="/css/Login_And_Signup.css" />
+
+<!-- This logo was created by hand by Natalia, so there is no link-->
+<div id="logo">
+    <img src="/Pictures/officialMuszillaLogo.jpg" width="250px" alt="Image Of Muszilla logo">
+</div>
+<!-- this is the babckground image on the sign in and sign up screen -->
+<!-- Photo by Elviss Railijs Bitāns from Pexels. Link: https://www.pexels.com/photo/blue-vinyl-record-playing-on-turntable-1389429/ -->
+<div class="recordBKimage">
+    <img src="/Pictures/record.jpg" height="560" alt="Image of a record as the background" />
+</div>
+
+<!-- main screen of the muszilla page -->
+<div class="information">
+    <p id="welcome">W E L C O M E<br>T O <br> M U S Z I L L A</p>
+    <p id="info"> Listen to high quality and ad-free music on Muszilla.<br>Look up songs, save them, and build playlists. All for free.</p>
+</div>
+
+<!-- a card that has registration form on one side and login form on the other side-->
+<div class="card">
+    <div class="inner-box">
+        <div id="cf" class="cardFront">
+            <form class="form-horizontal" asp-action="Verify">
+
+                <!-- this is the login form-->
+                <p>LOGIN</p>
+                <input asp-for="Item1.Email" name="Email" class="form-control" type="email" autocomplete="off" placeholder="Email" required>     <!-- this gets teh user's email-->
+                <input asp-for="Item1.Pass_word" name="Pass_word" class="form-control" type="password" placeholder="Password" required>             <!-- this gets teh user's passsword-->
+                <button type="submit" value="Login" onclick="">Login</button>
+                <button type="button" class="btn" onclick="showRegistration()">I'm New Here</button>                     <!-- this will call the function to show the registration form -->
+                <p id="forgotPassword">Forgot Password?<a id="link" href=""><em>Click here</em></a></p>                 <!-- does not work, wanted to implement but had no time -->
+            </form>
+        </div>
+        <div id="cb" style="display:none" class="cardBack">
+            <form class="form-horizontal" asp-action="Create">
+
+                <!-- this is the registration form-->
+                <p>SIGN-UP</p>
+                <!-- Turned the Full Name field into first and last name fields--> 
+                <input asp-for="Item2.FirstName" name="FirstName" type="text"  autocomplete="off" class="form-control" placeholder="First Name" required>            <!-- takes user's first name-->
+                <input asp-for="Item2.LastName" name="LastName" type="text" autocomplete="off" class="form-control" placeholder="Last Name" required>             <!-- user's last name -->
+                <input asp-for="Item2.Email" name="Email" type="email"  autocomplete="off" class="form-control" placeholder="Email" required>                  <!-- user's email -->
+                <input asp-for="Item2.Pass_word" name="Pass_word" type="password" autocomplete="off" class="form-control" placeholder="Password" required>             <!-- user's password-->
+                <button type="submit" onclick="">Register</button>                                                                <!--register button -->
+                <button type="button" class="btn1" onclick="showLogin()">I'm Already Registered</button>                         <!-- this will call the function to show  the login call -->
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    
+    var x = document.getElementById("cb");           //back of card
+    var y = document.getElementById("cf");          //front of card
+
+    //this function will show the registration form if it is not already displaying
+    function showRegistration() {
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            y.style.display = "none";
+            document.getElementById('loginForm').reset();
+        }
+        else {
+            x.style.display = "none";
+        }
+    }
+
+    //this function will show the login form if it is not already displaying
+    function showLogin() {
+        if (y.style.display === "none") {
+            y.style.display = "block";
+            x.style.display = "none";
+            document.getElementById('registration').reset();
+        }
+        else {
+            y.style.display = "none";
+        }
+    }
+</script>
+
+@if (ViewBag.Message != null)
+{
+    <script type="text/javascript">
+        window.onload = function () {
+            alert("@ViewBag.Message");
+        };
+    </script>
+
+}
+
+
+@{
+    if (TempData["msg"] != null)
+    {
+        <script>
+            alert('@TempData["msg"]')
+        </script>
+    }
+}

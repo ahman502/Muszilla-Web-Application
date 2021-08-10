@@ -1,0 +1,1300 @@
+﻿@media only screen and (max-width: 1024px) {
+}
+
+#logo {
+    padding-left: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    background-color: black;
+    overflow-x: visible;
+    overflow-y: visible;
+    width: 100%;
+}
+
+.sidebar {
+    height: 575px;
+    width: 250px;
+    position: absolute;
+    z-index: 1;
+    top: 110px;
+    border: solid #33CCFF;
+    left: 15px;
+    background-color: black;
+    overflow-x: hidden;
+    box-shadow: 0px 0px 30px 4px #33CCFF;
+    border-radius: 40px;
+    padding-top: 16px;
+    padding-left: 15px;
+}
+
+.sidebar p {
+    color: #999;
+    padding-top: 15px;
+    padding-left: 25px;
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.sidebar li {
+    color: #fff;
+    font-family: Arial;
+    padding-top: 5px;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #33CCFF;
+}
+
+.homebtn {
+    background-color: black;
+    border: none;
+    width: 220px;
+    padding: 5px 13px;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: 4px 10px;
+}
+
+.accountbtn {
+    background-color: black;
+    border: none;
+    width: 220px;
+    color: white;
+    padding: 5px 13px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: 4px 10px;
+}
+
+    .homebtn:hover, .accountbtn:hover, .homebtn:focus, .accountbtn:focus {
+        cursor: pointer;
+        color: #33CCFF;
+        outline: 0;
+        border-style: inset;
+        border-left: none;
+        border-top: none;
+        border-bottom: none;
+        border-right: 3px solid #33CCFF;
+    }
+
+.logoutbtn {
+    width: 200px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: solid #33CCFF;
+    background-color: black;
+    color: #33CCFF;
+    font-weight: bold;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 260px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 18px 3px #33CCFF;
+}
+
+.logoutbtn:hover {
+    background: #33CCFF;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.logoutbtn:focus {
+    outline: 0;
+}
+       
+
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+.sidebar #searchBar {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+input {
+    outline: none;
+}
+
+    input[type=search] {
+        -webkit-appearance: textfield;
+        -webkit-box-sizing: content-box;
+        font-family: inherit;
+        font-size: 100%;
+        color: #33CCFF;
+    }
+
+input::-webkit-search-decoration, input::-webkit-search-cancel-button {
+    display: none;
+}
+
+input[type=search] {
+    background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    border: solid 2px #33a7ee;
+    padding: 9px 10px 9px 32px;
+    background-color: black;
+    width: 155px;
+    color: #33CCFF;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+    input[type=search]:focus {
+        color: #fff;
+    }
+
+    input:-moz-placeholder {
+        color: #fff;
+    }
+
+input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.searchbtn {
+    text-align: center;
+    background-color: black;
+    border: 2px solid #33CCFF;
+    border-radius: 30px;
+    width: 200px;
+    background-color: #33CCFF;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+    .searchbtn:hover {
+        background: #33CCFF;
+        color: #fff;
+        cursor: pointer;
+        box-shadow: none;
+    }
+
+    .searchbtn:focus {
+        outline: 0;
+    }
+
+.arrow {
+    border: solid #999;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.btn1 {
+    position: absolute;
+    width: 200px;
+    top: 30px;
+    padding: 5px 35px;
+    left: 720px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: solid #33CCFF;
+    background-color: black;
+    color: #33CCFF;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 0px 18px 3px #33CCFF;
+}
+
+.btn1:hover {
+    background: #33CCFF;
+    color: #fff;
+    border: solid #33CCFF;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.btn1:focus {
+    background: #33CCFF;
+    color: #fff;
+    border: solid #33CCFF;
+    cursor: pointer;
+    top: 45px;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn2 {
+    position: absolute;
+    width: 200px;
+    top: 30px;
+    float: right;
+    padding: 5px 35px;
+    left: 940px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: solid #33CCFF;
+    background-color: black;
+    color: #33CCFF;
+    font-weight: bold;
+    box-shadow: 0px 0px 18px 3px #33CCFF;
+    text-align: center;
+}
+
+.btn2:hover {
+    background: #33CCFF;
+    color: #fff;
+    border: solid #33CCFF;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.btn2:focus {
+    background: #33CCFF;
+    color: #fff;
+    border: solid #33CCFF;
+    cursor: pointer;
+    top: 45px;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.btn3 {
+    position: absolute;
+    width: 200px;
+    top: 30px;
+    padding: 5px 35px;
+    left: 1160px;
+    float: right;
+    border-radius: 30px;
+    font-size: 18px;
+    border: solid #33CCFF;
+    background-color: black;
+    color: #33CCFF;
+    box-shadow: 0px 0px 18px 3px #33CCFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn3:hover {
+    background: #33CCFF;
+    color: #fff;
+    border: solid #33CCFF;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.btn3:focus {
+    background: #33CCFF;
+    color: #fff;
+    border: solid #33CCFF;
+    cursor: pointer;
+    top: 45px;
+    outline: 0;
+    box-shadow: none;
+}
+
+#topPicks, #featured, #genres {
+    width: 1100px;
+    height: 520px;
+    border-radius: 50px;
+    background: black;
+    position: absolute;
+    top: 100px;
+    display: none;
+    border: solid #33CCFF;
+    box-shadow: 0px 0px 30px 3px #33CCFF;
+    left: 350px;
+    color: white;
+}
+
+.btn01 {
+    text-align: center;
+    top: 40px;
+    position: absolute;
+    left: 100px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 3px #33CCFF;
+}
+
+    
+.btn02 {
+    text-align: center;
+    top: 40px;
+    position: absolute;
+    left: 430px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 3px #33CCFF;
+}
+
+.btn03 {
+    text-align: center;
+    top: 40px;
+    position: absolute;
+    left: 760px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 3px #33CCFF;
+}
+
+.btn04 {
+    text-align: center;
+    top: 280px;
+    position: absolute;
+    left: 100px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 3px #33CCFF;
+}
+
+.btn05 {
+    text-align: center;
+    top: 280px;
+    position: absolute;
+    left: 430px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 3px #33CCFF;
+}
+
+.btn06 {
+    top: 280px;
+    position: absolute;
+    left: 760px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 3px #33CCFF;
+}
+
+
+.btn01:hover, .btn01:focus, .btn02:hover, .btn02:focus, .btn03:hover, .btn03:focus, .btn04:hover, .btn04:focus,
+.btn05:hover, .btn05:focus, .btn06:hover, .btn06:focus {
+    box-shadow: 0px 0px 25px 3px #33CCFF;
+    cursor: pointer;
+}
+
+#item1 {
+    color: white;
+    position: absolute;
+    top: 224px;
+    width: 200px;
+    text-align: center;
+    left: 100px;
+}
+
+#item2 {
+    color: white;
+    position: absolute;
+    top: 224px;
+    width: 200px;
+    text-align: center;
+    left: 430px;
+}
+
+#item3 {
+    color: white;
+    position: absolute;
+    top: 224px;
+    width: 200px;
+    text-align: center;
+    left: 760px;
+}
+
+
+#item4 {
+    color: white;
+    position: absolute;
+    top: 460px;
+    width: 200px;
+    text-align: center;
+    left: 100px;
+}
+
+#item5 {
+    color: white;
+    position: absolute;
+    top: 460px;
+    left: 430px;
+    width: 200px;
+    text-align: center;
+}
+
+#item6 {
+    color: white;
+    position: absolute;
+    top: 460px;
+    width: 200px;
+    text-align: center;
+    left: 760px;
+}
+
+
+#home_first {
+    width: 1100px;
+    height: 520px;
+    border-radius: 50px;
+    border: solid #33CCFF;
+    box-shadow: 0px 0px 30px 3px #33CCFF;
+    position: absolute;
+    background: black;
+    top: 100px;
+    left: 350px;
+}
+
+#list_search_songs {
+    display: none;
+    width: 1100px;
+    height: 520px;
+    border-radius: 50px;
+    border: solid #33CCFF;
+    box-shadow: 0px 0px 30px 3px #33CCFF;
+    position: absolute;
+    background: black;
+    overflow-y: auto;
+    top: 100px;
+    left: 350px;
+}
+
+    #list_search_songs #results {
+        border: none;
+        box-shadow: none;
+        font-family: helvetica;
+        font-weight: normal;
+        margin-top: 120px;
+        color: white;
+        margin-left: 100px;
+    }
+
+#uploadsongs {
+    position: absolute;
+    left: 710px;
+    top: -328px;
+    width: 160px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: solid #33CCFF;
+    background-color: black;
+    color: #33CCFF;
+    font-weight: bold;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 135px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 8px 2px #33CCFF;
+}
+
+#songsinplaylist, #songsinplaylist2 {
+    width: 1100px;
+    height: 520px;
+    border-radius: 50px;
+    border: solid #33CCFF;
+    box-shadow: 0px 0px 30px 3px #33CCFF;
+    position: absolute;
+    background: black;
+    top: 100px;
+    left: 350px;
+    display: none;
+}
+
+.container3 {
+    border-radius: 10px;
+    background-color: none;
+    margin-left: 100px;
+    width: 897px;
+    position: absolute;
+    top: 120px;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container3 li {
+    margin-left: 10px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    float: initial;
+    width: 850px;
+    border: 3px solid #33CCFF;
+    box-shadow: 0px 0px 5px 3px #33CCFF;
+}
+
+.container3 li:hover, .container3 li:focus {
+    font-size: 15px;
+    color: #33CCFF;
+    cursor: pointer;
+    border: 3px solid white;
+    box-shadow: 0px 0px 5px 3px white;
+}
+
+#backtoplaylists {
+    position: absolute;
+    left: 70px;
+    top: -70px;
+    width: 160px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: solid #33CCFF;
+    background-color: black;
+    color: #33CCFF;
+    font-weight: bold;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 135px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 8px 2px #33CCFF;
+}
+
+#updateview {
+    position: absolute;
+    left: 840px;
+    top: 320px;
+    width: 160px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: solid #33CCFF;
+    background-color: black;
+    color: #33CCFF;
+    font-weight: bold;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 135px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 8px 2px #33CCFF;
+}
+
+
+.container1 {
+    border-radius: 10px;
+    background-color: none;
+    margin-left: 100px;
+    width: 897px;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+    .container1 li {
+        margin-left:10px;
+        margin-bottom: 12px;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+        float: initial;
+        width: 850px;
+        border: 3px solid #33CCFF;
+        box-shadow: 0px 0px 5px 3px #33CCFF;
+    }
+
+.container1 li:hover, .container1 li:focus {
+    font-size: 15px;
+    color: #33CCFF;
+    cursor: pointer;
+    border: 3px solid white;
+    box-shadow: 0px 0px 5px 3px white;
+}
+
+    ul.items {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+
+#newplaylistbtn {
+    position: absolute;
+    left: 790px;
+    top: 128px;
+    width: 160px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: solid #33CCFF;
+    background-color: black;
+    color: #33CCFF;
+    font-weight: bold;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 135px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 8px 2px #33CCFF;
+}
+
+    #newplaylistbtn:hover, #backtoplaylists:hover, #updateview:hover {
+        background: #33CCFF;
+        color: #fff;
+        cursor: pointer;
+        box-shadow: none;
+    }
+
+    #newplaylistbtn:focus, #updateview:focus, #updateview:focus {
+        outline: 0;
+    }
+
+#uploadsongs:hover {
+    background: #33CCFF;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+#newplaylistbtn:focus, #backtoplaylists:focus {
+    outline: 0;
+}
+
+#newplaylistbtn:focus, #updateview:focus {
+    outline: 0;
+}
+
+#uploadsongs:focus, #deletePlaylist:focus {
+    outline: 0;
+}
+
+.container2 {
+    border-radius: 10px;
+    background-color: none;
+    padding-top: 15px;
+    margin-left: 20px;
+    width: 897px;
+    height: 160px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container2 li {
+    margin-left: 10px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    float: initial;
+    width: 850px;
+    border: 3px solid #33CCFF;
+    box-shadow: 0px 0px 5px 3px #33CCFF;
+}
+
+.container2 li:hover, .container2 li:focus {
+    color: #33CCFF;
+    cursor: pointer;
+    border: 3px solid white;
+    box-shadow: 0px 0px 5px 3px white;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #33CCFF;
+}
+
+#userImage, #placeholderImage {
+    top: 40px;
+    position: absolute;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #33CCFF;
+    object-fit: cover;
+    border-radius: 250px;
+    object-fit: cover;
+}
+
+#accountInfo {
+    top: 70px;
+    color: #999;
+    position: absolute;
+    left: 320px;
+    font-size: 22px;
+    font-family: helvetica;
+    font-weight: normal;
+}
+
+#firstName {
+    border-bottom: 3px solid #33CCFF;
+    text-align: center;
+    font-size: 16px;
+    top: 140px;
+    width: 180px;
+    color: white;
+    position: absolute;
+    left: 320px;
+}
+
+#playlistNameInput {
+    border-bottom: 3px solid #33CCFF;
+    text-align: center;
+    font-size: 14px;
+    left: 620px;
+    top: 270px;
+    width: 170px;
+    background-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    position: absolute;
+}
+
+#deletePlaylist {
+    width: 140px;
+    text-align: center;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+    margin-left: 650px;
+   
+}
+
+    #deletePlaylist:hover {
+        color: #33ccff;
+        border-color: #33ccff;
+        cursor: pointer;
+        box-shadow: none;
+    }
+
+    #f {
+        color: white;
+        font-size: 16px;
+        top: 60px;
+        position: absolute;
+        left: 320px;
+    }
+
+#edit_one {
+    position: absolute;
+    color: lightgrey;
+    left: 800px;
+    font-size: 10px;
+    top: 70px;
+}
+
+#fn {
+    border-bottom: 3px solid #33CCFF;
+    text-align: center;
+    background-color: black;
+    font-size: 16px;
+    top: -5px;
+    width: 373px;
+    color: white;
+    position: absolute;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    left: 90px; 
+
+}
+
+    #fn:focus {
+        outline: 0;
+    }
+
+#lastName {
+    border-bottom: 3px solid #33CCFF;
+    text-align: center;
+    font-size: 16px;
+    top: 140px;
+    width: 180px;
+    color: white;
+    position: absolute;
+    left: 510px;
+}
+
+#l {
+    color: white;
+    font-size: 16px;
+    top: 100px;
+    position: absolute;
+    left: 320px;
+}
+
+#edit_two {
+    position: absolute;
+    color: lightgrey;
+    left: 800px;
+    font-size: 10px;
+    top: 110px;
+}
+
+#ln {
+    border-bottom: 3px solid #33CCFF;
+    text-align: center;
+    font-size: 16px;
+    top: -5px;
+    width: 373px;
+    color: white;
+    position: absolute;
+    left: 90px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: black;
+}
+
+    #ln:focus {
+        outline: 0;
+    }
+
+#userEmail {
+    border-bottom: 3px solid #33CCFF;
+    text-align: center;
+    font-size: 16px;
+    top: 170px;
+    width: 373px;
+    color: white;
+    position: absolute;
+    left: 320px;
+}
+
+#e {
+    color: white;
+    font-size: 16px;
+    top: 140px;
+    position: absolute;
+    left: 320px;
+}
+
+#edit_three {
+    position: absolute;
+    color: lightgrey;
+    left: 800px;
+    font-size: 10px;
+    top: 150px;
+}
+
+#UEmail {
+    border-bottom: 3px solid #33CCFF;
+    text-align: center;
+    font-size: 16px;
+    top: -5px;
+    width: 373px;
+    color: white;
+    position: absolute;
+    left: 90px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: black;
+}
+
+    #UEmail:focus {
+        outline: 0;
+    }
+
+#p {
+    color: white;
+    font-size: 16px;
+    top: 180px;
+    position: absolute;
+    left: 320px;
+}
+
+#edit_four {
+    position: absolute;
+    color: lightgrey;
+    left: 800px;
+    font-size: 10px;
+    top: 190px;
+}
+
+#UPassword {
+    border-bottom: 3px solid #33CCFF;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: black;
+    text-align: center;
+    font-size: 16px;
+    top: -5px;
+    width: 373px;
+    color: white;
+    position: absolute;
+    left: 90px;
+}
+
+#home_first p {
+    font-size: 20px;
+    color: #999;
+    top: 260px;
+    position: absolute;
+    left: 110px;
+}
+
+audio {
+    width: 1050px;
+    top: 640px;
+    position: absolute;
+    left: 370px;
+    border-radius: 50px;
+    border: 4px solid #33ccff;
+}
+
+audio:focus {
+    outline: 0;
+}
+
+#f1 {
+    top: 300px;
+    position: absolute;
+    left: 70px;
+}
+
+#lbl1 {
+    color: white;
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+#audio_list {
+    width: 750px;
+    color: white;
+    background: black;
+    border: 2px solid #33CCFF;
+        
+}
+
+#audio_list:focus {
+    outline: 0;
+}
+
+#opt {
+    font-size: 16px;
+    border: none;
+}
+
+
+#rock {
+    text-align: center;
+    top: 40px;
+    position: absolute;
+    left: 80px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid #33CCFF;
+    box-shadow: 0px 0px 20px 5px #33CCFF;
+}
+
+#info1 {
+    color: white;
+    font-size: 40px;
+    width: 205px;
+    z-index: 2;
+    text-align: center;
+    top: 75px;
+    position: absolute;
+    left: 80px;
+    font-weight: bold;
+}
+
+#pop {
+    text-align: center;
+    top: 40px;
+    position: absolute;
+    left: 320px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid #33CCFF;
+    box-shadow: 0px 0px 20px 5px #33CCFF;
+}
+
+#info2 {
+    color: white;
+    font-size: 40px;
+    width: 205px;
+    z-index: 2;
+    text-align: center;
+    top: 75px;
+    position: absolute;
+    left: 320px;
+    font-weight: bold;
+}
+
+#hiphop {
+    text-align: center;
+    top: 40px;
+    position: absolute;
+    left: 560px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid #33CCFF;
+    box-shadow: 0px 0px 20px 5px #33CCFF;
+}
+
+#info3 {
+    color: white;
+    font-size: 40px;
+    width: 205px;
+    z-index: 2;
+    text-align: center;
+    top: 75px;
+    position: absolute;
+    left: 560px;
+    font-weight: bold;
+}
+
+
+#jazz {
+    text-align: center;
+    top: 40px;
+    position: absolute;
+    left: 800px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid #33CCFF;
+    box-shadow: 0px 0px 20px 5px #33CCFF;
+}
+
+#info4 {
+    color: white;
+    font-size: 40px;
+    width: 205px;
+    z-index: 2;
+    text-align: center;
+    top: 75px;
+    position: absolute;
+    left: 800px;
+    font-weight: bold;
+}
+
+
+#country {
+    text-align: center;
+    top: 280px;
+    position: absolute;
+    left: 80px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid #33CCFF;
+    box-shadow: 0px 0px 20px 5px #33CCFF;
+}
+
+#info5 {
+    color: white;
+    font-size: 40px;
+    width: 205px;
+    z-index: 2;
+    text-align: center;
+    top: 320px;
+    position: absolute;
+    left: 82px;
+    font-weight: bold;
+}
+
+#classical {
+    text-align: center;
+    top: 280px;
+    position: absolute;
+    left: 320px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid #33CCFF;
+    box-shadow: 0px 0px 20px 5px #33CCFF;
+}
+
+#info6 {
+    color: white;
+    font-size: 35px;
+    width: 205px;
+    z-index: 2;
+    text-align: center;
+    top: 324px;
+    position: absolute;
+    left: 323px;
+    font-weight: bold;
+}
+
+#disco {
+    text-align: center;
+    top: 280px;
+    position: absolute;
+    left: 560px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid #33CCFF;
+    box-shadow: 0px 0px 20px 5px #33CCFF;
+}
+
+#info7 {
+    color: white;
+    font-size: 40px;
+    width: 205px;
+    z-index: 2;
+    text-align: center;
+    top: 320px;
+    position: absolute;
+    left: 560px;
+    font-weight: bold;
+}
+
+#folk {
+    text-align: center;
+    top: 280px;
+    position: absolute;
+    left: 800px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid #33CCFF;
+    box-shadow: 0px 0px 20px 5px #33CCFF;
+}
+
+#info8 {
+    color: white;
+    font-size: 40px;
+    width: 205px;
+    z-index: 2;
+    text-align: center;
+    top: 320px;
+    position: absolute;
+    left: 800px;
+    font-weight: bold;
+}
+
+#imageUpload {
+    position: absolute;
+    top: 260px;
+    left: 110px;
+}
+
+#account_screen {
+    width: 1100px;
+    height: 520px;
+    border-radius: 50px;
+    border: solid #33CCFF;
+    box-shadow: 0px 0px 30px 3px #33CCFF;
+    position: absolute;
+    display: none;
+    background: black;
+    top: 100px;
+    left: 350px;
+}
+
+.savebtn {
+    width: 200px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: solid #33CCFF;
+    background-color: black;
+    color: #33CCFF;
+    font-weight: bold;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 460px;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 830px;
+    box-shadow: 0px 0px 18px 3px #33CCFF;
+}
+
+.savebtn:hover {
+    background: #33CCFF;
+    color: #fff;
+    border: solid #33CCFF;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.savebtn:focus {
+    outline: 0;
+}

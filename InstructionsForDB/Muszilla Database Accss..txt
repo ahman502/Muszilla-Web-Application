@@ -1,0 +1,27 @@
+How to Connect to Muszilla Azure Database.
+Since the project is being hosted on a cloud server, all you have to do is run the VS file and the program should run.
+
+If you want to acess the database itself to see the raw data you will first need to dowload Microsoft SQL Server Management Studio.
+
+Once downloaded, when prompted to connect to a server enter these onto the the respective fields:
+
+Server Type: Database Engine
+Server Name: muzilla2.database.windows.net
+Authentication: SQL Server Authentication
+Login: muzilla
+Password: AleMazNat1
+
+Hit Connect and you will have access to all the raw data currently contained in the database!
+*Keep in mind that if you choose to connect to the cloud server it might take multiple tries for the connection to establish*
+
+If for some reason the connectio to the Azure server fails, I have attached the schema to create the tables on your local database server.
+If you haven't already dowloaded MSQLSM do so. Open up your local database server and either open the given query or copy paster the query on to a new one on the database.
+Then on the main VS file click on the Resources.rex file and change the string with name ConnectionString to:
+
+Server=YourServerHere;Database=YourDatabaseNameHere;Trusted_Connection=True;MultipleActiveResultSets=True
+
+If your database uses a user name and password:
+
+Server=YourServerHere;Database=YourDatabaseNameHere;User ID=YourUserName;Password=YourPassword;;Trusted_Connection=True;MultipleActiveResultSets=True
+
+This should connect the VS file the local instance you made; keep in mind all tables will be empty.
